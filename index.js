@@ -11,12 +11,12 @@ console.log("=======================");
 
 const choice = prompt('Enter your choice in above menu: ');
 
-const number1 = parseFloat(prompt('Enter first number: '));
-const number2 = parseFloat(prompt('Enter second number: '));
+const number1 = parseFloat(prompt('Enter first number : '));
+const number2 = parseFloat(prompt('Enter second number : '));
 
 switch(choice)
   {
-    case '1' :
+    case '1':
       console.log("The ADDITION is :" ,number1 + number2);
       break;
       
